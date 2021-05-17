@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+
 import org.openqa.selenium.support.ui.Select;
 
 public class Metod {
@@ -17,7 +17,7 @@ public class Metod {
 	public void abrirNavegador(String url, String Navegador) {
 
 		
-			System.setProperty("webdriver.chrome.driver", "C:\\Drivers\\Chrome\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
 			driver = new ChromeDriver();
 			driver.get(url);
 			driver.manage().window().maximize();

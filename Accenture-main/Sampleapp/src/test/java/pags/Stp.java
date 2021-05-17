@@ -68,7 +68,7 @@ public class Stp {
 		meto.escrever(el.getNomeUsuario(), "felix");
 		meto.escrever(el.getSenha(), "4321Jf");
 		meto.escrever(el.getConfirmarSenha(), "4321Jf");
-		meto.escrever(el.getComentarios(), "Boa sorte");
+		meto.escrever(el.getComentarios(), "Teste Pronto");
 		meto.clicar(el.getBotao());
 		
 	
